@@ -1,0 +1,17 @@
+{
+  "name": "spo-pageload-checker",
+  "version": "1.0.0",
+  "description": "A utility for checking performance in SharePoint Online using Puppeteer",
+  "main": "index.js",
+  "scripts": {
+    "test": "console.warn('no tests');",
+    "start": "node index.js"
+  },
+  "author": "Anatoly Mironov",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-sp-auth": "^2.5.7",
+    "puppeteer": "^2.0.0"
+  }
+}
